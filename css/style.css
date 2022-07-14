@@ -3,9 +3,20 @@
     border: 2px solid black;
     width: 800px;
     height: 500px;
+    display: flex;
+    transform: translateY(50px);
+    background-color: black;
+    justify-content: space-around;
 }
 .dob{
     transform: translateX(30px);
     line-height: 100px;
     font-size: 30px;
+    color: aqua;
+}
+select{
+    transform: translateY(40px);
+    font-size: 18px;
+    text-transform: uppercase;
+    color: blue;
 }
