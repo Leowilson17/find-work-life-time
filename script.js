@@ -1,3 +1,4 @@
+//  select tag stored a variable
 var selEle = document.getElementById('year-id');
 // selEle.setAttribute('onchange', 'fun(this.value)');
 var optEle;
