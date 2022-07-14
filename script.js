@@ -63,4 +63,4 @@ function monName(monthName) {
     
     }
 }
-monName.clear();
+
