@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="year-con">
+            <p class="dob" id='birth-id'>DOB</p>
+        </div>
+        <div class="year-div">
+            <select name="" id="year-id" onchange="fun(this.value)">
+                <option value="">--Year--</option>
+            </select>
+        </div>
+        <div class="month-div">
+            <select class="month" onchange="monName(this.value)">
+                <option value="">--Month--</option>
+                <option value="jan">jan</option>
+                <option value="feb">feb</option>
+                <option value="mar">mar</option>
+                <option value="apr">apr</option>
+                <option value="may">may</option>
+                <option value="june">june</option>
+                <option value="july">july</option>
+                <option value="aug">aug</option>
+                <option value="sep">sep</option>
+                <option value="oct">oct</option>
+                <option value="nov">nov</option>
+                <option value="dec">dec</option>
+            </select>
+        </div>
+        <div class="days-sectuib">
+            <select name="" id="day-cont" onchange="days(this.value)">
+                <option value="">--Days--</option>
+            </select>
+        </div>
+
+
+    </div>
+    <script src="/script.js"></script>
+</body>
+
+</html>
