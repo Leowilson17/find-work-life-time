@@ -11,39 +11,61 @@
 </head>
 
 <body>
+    <!-- main container -->
     <div class="container">
-        <div class="year-con">
-            <p class="dob" id='birth-id'>DOB</p>
-        </div>
-        <div class="year-div">
-            <select name="" id="year-id" onchange="fun(this.value)">
-                <option value="">--Year--</option>
-            </select>
-        </div>
-        <div class="month-div">
-            <select class="month" onchange="monName(this.value)">
-                <option value="">--Month--</option>
-                <option value="jan">jan</option>
-                <option value="feb">feb</option>
-                <option value="mar">mar</option>
-                <option value="apr">apr</option>
-                <option value="may">may</option>
-                <option value="june">june</option>
-                <option value="july">july</option>
-                <option value="aug">aug</option>
-                <option value="sep">sep</option>
-                <option value="oct">oct</option>
-                <option value="nov">nov</option>
-                <option value="dec">dec</option>
-            </select>
-        </div>
-        <div class="days-sectuib">
-            <select name="" id="day-cont" onchange="days(this.value)">
-                <option value="">--Days--</option>
-            </select>
+        <div class="flex-1">
+            <!-- DOB text -->
+            <div class="year-con">
+                <p class="dob" id='birth-id'>DOB</p>
+            </div>
+            <!-- Year container -->
+            <div class="year-div">
+                <select name="" id="year-id" onchange="fun(this.value)">
+                    <option value="">--Year--</option>
+                </select>
+            </div>
+            <!-- Month container -->
+            <div class="month-div">
+                <select class="month" onchange="monName(this.value)">
+                    <option value="">--Month--</option>
+                    <option value="0">jan</option>
+                    <option value="1">feb</option>
+                    <option value="2">mar</option>
+                    <option value="3">apr</option>
+                    <option value="4">may</option>
+                    <option value="5">june</option>
+                    <option value="6">july</option>
+                    <option value="7">aug</option>
+                    <option value="8">sep</option>
+                    <option value="9">oct</option>
+                    <option value="10">nov</option>
+                    <option value="11">dec</option>
+                </select>
+            </div>
+            <!-- day container -->
+            <div class="days-section">
+                <select name="" id="day-cont" onchange="days(this.value)">
+                    <option value="">--Days--</option>
+                </select>
+            </div>
         </div>
 
-
+        <!-- Retierment container -->
+        <div class="retier-container">
+            <div class="flex-2">
+                <p>retierment age</p>
+                <select name="" id="retire-id">
+                    <option id='ret-age' value="">--select--</option>
+                </select>
+                <button type="button" id='go-btn' class="btn-1">go</button>
+            </div>
+        </div>
+        <hr>
+        <h2 class="show-year"></h2>
+        <!-- Result Container -->
+        <div class="result-div">
+            
+        </div>
     </div>
     <script src="/script.js"></script>
 </body>
