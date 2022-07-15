@@ -1,11 +1,14 @@
 .container{
     margin: 0px auto;
     border: 2px solid black;
-    width: 800px;
-    height: 500px;
-    display: flex;
+    width: 675px;
+    height: auto;
     transform: translateY(50px);
     background-color: black;
+    
+}
+.flex-1{
+    display: flex;
     justify-content: space-around;
 }
 .dob{
@@ -14,9 +17,62 @@
     font-size: 30px;
     color: aqua;
 }
-select{
+.flex-1 select{
     transform: translateY(40px);
     font-size: 18px;
     text-transform: uppercase;
     color: blue;
+}
+/* .retier-container{
+border: 2px solid orangered;
+height: 200px;
+} */
+.flex-2{
+    margin-top:30px;
+    display: flex;
+    justify-content:space-around;
+}
+.retier-container p{
+    color: rgb(14, 230, 50);
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.flex-2 select{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: blue;
+
+}
+.btn-1{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: brown;
+    /* width: 60px; */
+}
+.result-div{
+    /* border: 2px solid orangered; */
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container hr{
+  border-top:2px solid yellow;
+}
+.box-1{
+    /* margin: 10px 5px; */
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+    background-color: red;
+}
+.box-2{
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+    background-color: green;
+}
+h2{
+    color: blue;
+    font-size: 20px;
+    text-transform: capitalize
 }
